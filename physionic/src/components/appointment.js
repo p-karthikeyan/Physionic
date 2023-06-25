@@ -11,9 +11,22 @@ const Appointment = () => {
         <label htmlFor='email'>Email address *</label>
         <input type='email' id='email' placeholder='example@gmail.com' required/>
         <label htmlFor='dept'>Department *</label>
-        <input type='dropdown' id='dept' placeholder='Please Select' required/>
+        <select id='dept'>
+          <option>Neurology</option>
+          <option>Cardialogy</option>
+          <option>Ortho</option>
+          <option>Homeo</option>
+          <option selected disabled hidden>Please select</option>
+        </select>
         <label htmlFor='time'>Time *</label>
-        <input type='dropdown' placeholder='4:00 available' required/>
+        <select id='time'>
+          <option>09:00 am</option>
+          <option>10:00 am</option>
+          <option>11:00 am</option>
+          <option>02:00 pm</option>
+          <option>03:00 pm</option>
+          <option selected>04:00 pm available</option>
+        </select>
         <button className='prim-btn'>Book Appointment</button>
       </form>
     </div>
