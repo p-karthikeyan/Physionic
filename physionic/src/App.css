@@ -1,0 +1,227 @@
+.App {
+  text-align: center;
+}
+.nav-cont{
+  position: absolute;
+  top: 0%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: white;
+}
+.nav-left{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.nav-left div{
+  display: flex;
+  flex-direction: row;
+  margin-left: 70px;
+}
+.nav-left div p{
+  margin: auto 10px;
+}
+.nav-cont button{
+  background-color: rgb(0, 170, 255);
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  margin-left:37vw;
+  display: flex;
+  align-items: center;
+}
+.dashdesc{
+  position:absolute;
+  top:30%;
+  left:10%;
+  width: 380px;
+  color: white;
+  text-align: left;
+}
+.btn1{
+  background-color: rgb(0, 170, 255);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  color: white;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.btn2{
+  background: none;
+  color: white;
+  border: solid 1px white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  margin-left: 10px;
+}
+.appointment{
+  width: 330px;
+  height: 80vh;
+  border-radius: 10px;
+  background-color: white;
+  position:absolute;
+  top:15%;
+  right:11%;
+}
+.appointment form{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 30px 30px;
+}
+.appointment form label{
+  font-weight: 500;
+  margin: 20px 0px;
+}
+.appointment form input{
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: solid 1px rgb(220, 220, 220);
+  background-color: rgb(250, 250, 250);
+}
+.prim-btn{
+  background-color: rgb(0, 170, 255);
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  margin: 40px 0px;
+}
+.leading{padding: 50px 0px;}
+.leading div{
+  margin-left: auto;
+  margin-right: auto;
+}
+.card-cont{
+  width: 350px;
+  border-radius: 10px;
+  margin: 50px 0px;
+  border: solid 1px rgb(0, 170, 255);
+}
+.card-head div{
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  border-radius: 50px;
+  margin: 0 15px;
+}
+.card-head{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  padding: 20px 0px;
+  border-radius: 10px 10px 0px 0px;
+  background-color: rgb(138, 175, 255);
+}
+.card-body{
+  padding: 10px 30px;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(72, 72, 72);
+}
+.card-body h5{
+  color: rgb(0, 170, 255);
+}
+.card-wrap{
+  width: 80vw; 
+  display: flex;
+  flex-direction: row;
+  margin: 50px 0px;
+}
+.ratings{
+  background-color: rgb(247, 247, 247);
+  padding-top: 50px;
+}
+.rate-cont{
+  background-color: white;
+  border-radius: 7px;
+  width: 300px;
+  border: solid 1px rgb(219, 219, 219);
+  text-align: left;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(72,72,72);
+  padding: 15px 20px;
+  margin: 50px auto;
+}
+.dp-cont{
+  width: 50px;
+  height: 50px;
+  border-radius: 40px;
+  overflow: hidden;
+}
+.dp-cont img{width: 100%;}
+.rate-wrap{
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.rating-stars{
+  color:yellow;
+}
+.faq-cont{
+  padding: 10px 20px;
+  margin: 60px 30px;
+  width: 300px;
+  background-color: white;
+  border-radius: 10px;  
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+}
+.faq-cont h3{
+  font-size: 16px;
+  font-weight: 600;
+}
+.faq-wrap{
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+}
+.price-card-cont{
+  width: 300px;
+  background-color: white;
+  border: solid 1px rgb(0, 170, 255);
+  border-radius: 10px;
+}
+.price-wrap{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 170, 255);
+}
+.price-wrap div{
+  display: flex;
+  flex-direction: column;
+  margin-left:10px;
+  text-align: left;
+}
+.price-wrap div p{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.feature-list{margin:20px;}
+.feature-list div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
