@@ -3,6 +3,7 @@ import React from 'react'
 const Contact = () => {
   return (
     <div className='get-in-touch'>
+        <h2>Subscribe For Latest Newsletter</h2>
         <div className='left'>
             <h1>Get In Touch</h1>
             <p>

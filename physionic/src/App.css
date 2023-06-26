@@ -300,6 +300,7 @@
   width:30vw;
   margin:50px auto;
 }
+.get-in-touch h2{display: none;}
 
 @media (max-width:767px){
   .nav-cont{display: none;}
@@ -341,9 +342,12 @@
   .rate-wrap{flex-direction: column;gap: 10px;}
   .rate-cont{width: 250px;margin: 20px auto;}
 .faq-wrap{flex-direction: column;gap: 10px;margin: 0px auto;}
-.faq-cont{width: 280px;margin-top: 20px;margin-bottom: 0px;}
+.faq-cont{width: 270px;margin-top: 20px;margin-bottom: 0px;}
 .wraper{flex-direction: column;gap: 20px;align-items: center;}
 .price-card-cont{width: fit-content;}
-
-
+.get-in-touch .left{display: none;}
+.get-in-touch h2{display: block;}
+.get-in-touch{flex-direction: column;padding: 50px 5vw;}
+.footer{flex-direction: column;padding: 20px 0px;}
+.footer .division{margin: 10px 70px;}
 }
