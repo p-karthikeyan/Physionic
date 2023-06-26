@@ -4,7 +4,7 @@ const Appointment = () => {
 
   return (
     <div className='appointment'>
-      <h3 style={{margin:'30px 0px'}}>Book Appointment</h3>
+      <h3>Book Appointment</h3>
       <form>
         <label htmlFor='name'>Name *</label>
         <input type='text' id='name' placeholder='Full Name *' required/>

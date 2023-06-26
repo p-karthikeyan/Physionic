@@ -5,8 +5,8 @@ import Ratecard from './ratecard'
 const Ratings = () => {
   return (
     <div className='ratings'>
-        <div style={{width:'30vw',margin:'50px auto'}}>
-                <h1>Leading Medicine</h1>
+        <div className='lead-tit'>
+                <h1>What Clients Say</h1>
                 <p>
                 Problems trying to resolve the conflict between
                 the two major realms of Classical physics:Newtonian mechanics

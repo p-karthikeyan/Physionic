@@ -4,7 +4,7 @@ import Faqcards from './faqcards'
 const Faq = () => {
   return (
     <div className='ratings'>
-        <div style={{width:'30vw',margin:'50px auto'}}>
+        <div className='lead-tit'>
                 <h1>FAQ</h1>
                 <p>
                 Problems trying to resolve the conflict between

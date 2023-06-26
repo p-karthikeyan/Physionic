@@ -6,10 +6,10 @@ import Appointment from './appointment'
 
 const Dash = () => {
   return (
-    <div style={{height:'100vh',overflow:'hidden',width:'100%',margin:'0px'}}>
-      <img style={{width:'100%',filter:'brightness(50%)',margin:'0px'}} src={bg}/>
+    <div className='dash' >
+      <img className='dashbg' src={bg}/>
       <Nav/>
-      <div>
+      <div className='dash-div'>
         <Dashdesc/>
         <Appointment/>
       </div>

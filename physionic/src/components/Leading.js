@@ -4,7 +4,7 @@ import Cards from './cards'
 const Leading = () => {
   return (
     <div className='leading'>
-        <div style={{width:'30vw',margin:'50px auto'}}>
+        <div className='lead-tit'>
             <h1>Leading Medicine</h1>
             <p>
             Problems trying to resolve the conflict between

@@ -4,7 +4,7 @@ import Pricecards from './pricecards';
 const Pricing = () => {
   return (
     <div className='ratings'>
-        <div style={{width:'30vw',margin:'50px auto'}}>
+        <div className='lead-tit'>
                 <h1>Pricing</h1>
                 <p>
                 Problems trying to resolve the conflict between

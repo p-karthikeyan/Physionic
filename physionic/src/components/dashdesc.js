@@ -3,7 +3,7 @@ import React from 'react'
 const Dashdesc = () => {
   return (
     <div className='dashdesc'>
-      <h1 style={{fontSize:'48px'}}>Meet the Best Hospital</h1>
+      <h1>Meet the Best Hospital</h1>
       <p>We Know how large objects will act,
         but things on a small scale.
       </p>

@@ -283,7 +283,67 @@
   display: flex;
   gap: 10px;
 }
-@media (max-width:767px){
-  
+.dash{
+  height:100vh;
+  overflow:hidden;
+  width:100%;
+  margin:0px;
+}
+.dashbg{
+  width:100%;
+  filter:brightness(30%);
+  margin:0px;
+}
+.dashdesc h1{font-size: 48px;}
+.appointment h3{margin: 30px 0px;}
+.lead-tit{
+  width:30vw;
+  margin:50px auto;
 }
 
+@media (max-width:767px){
+  .nav-cont{display: none;}
+  .dash{height: 150vh;}
+  .dashbg{height:100%;width: auto;}
+  .appointment{
+    height: 450px;
+    width: 300px;
+    top: 68%;
+    font-size: small;
+  }
+  .appointment form{margin:0px 30px;}
+  .appointment form label{
+    font-weight: 500;
+    margin: 10px 0px;
+  }.appointment h3{margin: 20px 0px;}
+  .appointment .prim-btn{
+    margin: 20px 0px;
+  }
+  .dashdesc{
+    position:absolute;
+    top:10%;
+    width: 300px;
+    color: white;
+    text-align: center;
+  }.dashdesc h1{font-size: 36px;}
+  .dashdesc button{
+    display: block;
+    width: 180px;
+    margin: 20px auto;
+  }
+  .leading{padding: 10px 0px;}
+  .card-wrap{flex-direction: column;gap: 10px;}
+  .card-cont{width: 300px;margin: 20px 0px;}
+  .lead-tit{
+    width:60vw;
+    margin:50px auto;
+  }
+  .rate-wrap{flex-direction: column;gap: 10px;}
+  .rate-cont{width: 250px;margin: 20px auto;}
+.faq-wrap{flex-direction: column;gap: 10px;margin: 0px auto;}
+.faq-cont{width: 280px;margin-top: 20px;margin-bottom: 0px;}
+.wraper{flex-direction: column;gap: 20px;align-items: center;}
+.price-card-cont{width: fit-content;}
+
+
+}
